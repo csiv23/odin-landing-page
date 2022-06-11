@@ -1,0 +1,188 @@
+.site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+  color: purple;
+  width: 1000px;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  border: solid;
+  border-color: gold;
+}
+
+ul {
+  display: flex;
+  border: solid;
+  border-color: blue;
+  list-style: none;
+  gap: 15px;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+a {
+  display: flex;
+  border: solid;
+  border-color: turquoise;
+  font-size: 12px;
+}
+
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-color: white;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.section1info {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: yellow;
+  width: 350px;
+}
+
+.section1image {
+  display: flex;
+  border: solid;
+  border-color: green;
+  height: 193px;
+  width: auto;
+  margin-left: 200px;
+}
+
+
+.section1title {
+  display: flex;
+  border: solid;
+  border-color: red;
+  font-size: 40px;
+  justify-content: flex-start;
+  flex-wrap: 1;
+  width: 300px;
+}
+
+.section1text {
+  display: flex;
+  border: solid;
+  border-color: blue;
+  flex-wrap: 1;
+}
+
+.signup {
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  border: solid;
+  border-color: yellow;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  width: 100px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: orange;
+  margin-top: 80px;
+  align-items: center;
+  width: 1000px;
+}
+
+.section2info {
+  display: flex;
+  border: solid;
+  border-color: red;
+  flex-direction: column;
+}
+
+.section2title {
+  font-size: 30px;
+}
+
+.section2images {
+  display: flex;
+  border: solid;
+  border-color: blue;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 675px;
+}
+
+.section2image {
+  display: flex;
+  width: 50px;
+  height: auto;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  display: flex;
+  border: solid;
+  border-color: yellow;
+  flex-direction: column;
+  width: 50px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  text-align: center;
+}
+
+.imagelabel {
+  margin-top: 5px;
+  border: solid;
+  border-color: pink;
+}
+
+.section3 {
+  margin-top: 50px;
+  display: flex;
+  border: solid;
+  border-color: white;
+  flex-direction: column;
+  width: 500px;
+}
+
+.quote {
+  display: flex;
+  border: solid;
+  border-color: green;
+  font-size: 20px;
+  width: 500px;
+  align-self: center;
+}
+
+.author {
+  display: flex; 
+  border: solid;
+  border-color: orange;
+  width: 125px;
+  align-self: flex-end;
+}
