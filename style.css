@@ -1,0 +1,99 @@
+
+
+
+.header {
+  background-color: #1F2937;
+  padding: 15px;
+  align-items: center;
+    display: flex;
+    align-content: baseline;
+    justify-content: space-around;
+  }
+
+  .logo {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    border: solid;
+    border-color: gold;
+  }
+
+  ul {
+    display: flex;
+    border: solid;
+    border-color: blue; 
+
+    list-style: none;
+    gap: 15px;
+  }
+
+  a {
+    font-size: 18px;
+    color: black;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-color: white;
+    margin-left: 45px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section1info {
+    display: flex;
+    flex-direction: column;
+    border: solid; 
+    border-color: yellow;
+    width: 350px;
+  }
+
+  
+
+  
+  .section1image {
+    display: flex;
+    border: solid;
+    border-color: green;
+    height: 193px;
+    width: auto;
+    margin-left: 200px;
+  }
+
+
+  .section1title {
+    display: flex;
+    border: solid;
+    border-color: red;
+    font-size: 40px;
+    justify-content: flex-start;
+    flex-wrap: 1;
+    width: 300px;
+  }
+
+  .section1text {
+    display: flex;
+    border: solid;
+    border-color: blue;
+    flex-wrap: 1;
+  }
+
+  .signup {
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    border: solid;
+    border-color: yellow;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 100px;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+  }
