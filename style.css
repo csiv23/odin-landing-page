@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1000px;
 
 }
 
@@ -18,10 +17,9 @@
 
 .logo {
   display: flex;
-  color: white;
-  font-size: 30px;
+  color: #f9FAF8;
+  font-size: 24px;
   font-weight: 900;
-  font-style: italic;
   border: solid;
   border-color: gold;
 }
@@ -40,7 +38,8 @@ a {
   display: flex;
   border: solid;
   border-color: turquoise;
-  font-size: 12px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 
@@ -77,10 +76,12 @@ a {
   display: flex;
   border: solid;
   border-color: red;
-  font-size: 40px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9FAF8;
   justify-content: flex-start;
   flex-wrap: 1;
-  width: 300px;
+  width: 350px;
 }
 
 .section1text {
@@ -88,6 +89,8 @@ a {
   border: solid;
   border-color: blue;
   flex-wrap: 1;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 .signup {
@@ -96,7 +99,7 @@ a {
   display: flex;
   border: solid;
   border-color: yellow;
-  background: royalblue;
+  background: #3882F6;
   border: 1px solid royalblue;
   color: white;
   width: 100px;
@@ -113,6 +116,7 @@ a {
   margin-top: 80px;
   align-items: center;
   width: 1000px;
+  background: darkgrey;
 }
 
 .section2info {
@@ -123,7 +127,9 @@ a {
 }
 
 .section2title {
-  font-size: 30px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 
 .section2images {
@@ -162,27 +168,80 @@ a {
 }
 
 .section3 {
+  display: flex;
+  border: red;
+  border: solid;
+  width: 1000px;
+  justify-content: center;
+  background: #E5E7EB; 
+}
+
+.section3info {
+  background: #E5E7EB; 
   margin-top: 50px;
   display: flex;
   border: solid;
   border-color: white;
   flex-direction: column;
-  width: 500px;
+  width: 850px;
 }
 
 .quote {
+  background: #E5E7EB; 
   display: flex;
   border: solid;
   border-color: green;
-  font-size: 20px;
-  width: 500px;
+  font-size: 36px;
+  font-style: italic; 
+  color: #1F2937;
+  width: 850px;
   align-self: center;
 }
 
 .author {
+  background: #E5E7EB; 
   display: flex; 
   border: solid;
   border-color: orange;
-  width: 125px;
+  width: 150px;
+  font-weight: bold;
   align-self: flex-end;
+  color: black;
+}
+
+
+.section4 {
+  margin-top: 50px;
+  display: flex;
+  border: solid;
+  border-color: blue;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.section4text {
+  display: flex;
+  border: solid;
+  border-color: yellow;
+  flex-direction: column;
+}
+
+.section4header {
+  display: flex;
+  border:solid; 
+  border-color: red;
+}
+
+.section4subtext {
+  display: flex;
+  border: solid;
+  border-color: purple;
+}
+
+.section4signup {
+  display: flex;
+  border:solid;
+  border-color: green;
+  align-self: center;
 }
