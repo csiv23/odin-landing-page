@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 100%;
 }
 
 .header {
@@ -10,9 +10,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid;
-  color: purple;
-  width: 1000px;
+  width: 100%;
+  padding-bottom: 5%;
 }
 
 .logo {
@@ -20,14 +19,10 @@
   color: #f9FAF8;
   font-size: 24px;
   font-weight: 900;
-  border: solid;
-  border-color: gold;
 }
 
 ul {
   display: flex;
-  border: solid;
-  border-color: blue;
   list-style: none;
   gap: 15px;
   justify-content: space-around;
@@ -36,8 +31,6 @@ ul {
 
 a {
   display: flex;
-  border: solid;
-  border-color: turquoise;
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -46,19 +39,15 @@ a {
 .section1 {
   display: flex;
   flex-direction: row;
-  border: solid;
-  border-color: white;
-  margin-top: 80px;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;
+  width: 100%;
+  background: #1F2937;
 }
 
 .section1info {
   display: flex;
   flex-direction: column;
-  border: solid;
-  border-color: yellow;
   width: 350px;
 }
 
@@ -74,8 +63,6 @@ a {
 
 .section1title {
   display: flex;
-  border: solid;
-  border-color: red;
   font-size: 48px;
   font-weight: 900;
   color: #f9FAF8;
@@ -86,8 +73,6 @@ a {
 
 .section1text {
   display: flex;
-  border: solid;
-  border-color: blue;
   flex-wrap: 1;
   color: #E5E7EB;
   font-size: 18px;
@@ -111,31 +96,28 @@ a {
 .section2 {
   display: flex;
   flex-direction: column;
-  border: solid;
-  border-color: orange;
-  margin-top: 80px;
   align-items: center;
-  width: 1000px;
-  background: darkgrey;
+  width: 100%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: white;
 }
 
 .section2info {
   display: flex;
-  border: solid;
-  border-color: red;
   flex-direction: column;
+  
 }
 
 .section2title {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  margin-bottom: 8%;
 }
 
 .section2images {
   display: flex;
-  border: solid;
-  border-color: blue;
   justify-content: space-around;
   flex-direction: row;
   width: 675px;
@@ -169,9 +151,7 @@ a {
 
 .section3 {
   display: flex;
-  border: red;
-  border: solid;
-  width: 1000px;
+  width: 100%;
   justify-content: center;
   background: #E5E7EB; 
 }
@@ -179,9 +159,8 @@ a {
 .section3info {
   background: #E5E7EB; 
   margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
-  border: solid;
-  border-color: white;
   flex-direction: column;
   width: 850px;
 }
@@ -189,8 +168,6 @@ a {
 .quote {
   background: #E5E7EB; 
   display: flex;
-  border: solid;
-  border-color: green;
   font-size: 36px;
   font-style: italic; 
   color: #1F2937;
@@ -201,8 +178,6 @@ a {
 .author {
   background: #E5E7EB; 
   display: flex; 
-  border: solid;
-  border-color: orange;
   width: 150px;
   font-weight: bold;
   align-self: flex-end;
@@ -211,37 +186,44 @@ a {
 
 
 .section4 {
+  border-radius: 5px;
   margin-top: 50px;
   display: flex;
-  border: solid;
-  border-color: blue;
   flex-direction: row;
-  width: 500px;
+  width: 800px;
+  height: 100px;
   justify-content: space-around;
+  background: #3882F6;
+  align-items: center;
 }
 
 .section4text {
   display: flex;
-  border: solid;
-  border-color: yellow;
   flex-direction: column;
 }
 
 .section4header {
   display: flex;
-  border:solid; 
-  border-color: red;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
 }
 
 .section4subtext {
   display: flex;
-  border: solid;
-  border-color: purple;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .section4signup {
   display: flex;
-  border:solid;
-  border-color: green;
   align-self: center;
+  background: #3882F6;
+  border-radius: 8px;
+  border-color: white;
+  color: white;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
 }
