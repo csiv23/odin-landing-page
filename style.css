@@ -33,6 +33,7 @@ a {
   display: flex;
   font-size: 18px;
   color: #E5E7EB;
+  text-decoration: none;
 }
 
 
@@ -43,6 +44,7 @@ a {
   justify-content: space-between;
   width: 100%;
   background: #1F2937;
+  padding-bottom: 2%;
 }
 
 .section1info {
@@ -54,7 +56,6 @@ a {
 .section1image {
   display: flex;
   border: solid;
-  border-color: green;
   height: 193px;
   width: auto;
   margin-left: 200px;
@@ -69,6 +70,7 @@ a {
   justify-content: flex-start;
   flex-wrap: 1;
   width: 350px;
+
 }
 
 .section1text {
@@ -76,14 +78,14 @@ a {
   flex-wrap: 1;
   color: #E5E7EB;
   font-size: 18px;
+  margin-top: 2%;
 }
 
 .signup {
   padding: 8px 16px;
   border-radius: 8px;
   display: flex;
-  border: solid;
-  border-color: yellow;
+  margin-top: 4%;
   background: #3882F6;
   border: 1px solid royalblue;
   color: white;
@@ -106,7 +108,6 @@ a {
 .section2info {
   display: flex;
   flex-direction: column;
-  
 }
 
 .section2title {
@@ -125,7 +126,7 @@ a {
 
 .section2image {
   display: flex;
-  width: 50px;
+  width: 100px;
   height: auto;
 }
 
@@ -135,29 +136,32 @@ a {
 .image4 {
   display: flex;
   border: solid;
-  border-color: yellow;
+  border-color: #3882F6;
+  border-radius: 8px;
   flex-direction: column;
-  width: 50px;
+  width: 100px;
   flex-wrap: wrap;
   font-size: 10px;
   text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .imagelabel {
-  margin-top: 5px;
-  border: solid;
-  border-color: pink;
+  display: flex;
+  margin-top: 10%;
 }
 
 .section3 {
   display: flex;
   width: 100%;
   justify-content: center;
-  background: #E5E7EB; 
+  background: #E5E7EB;
 }
 
 .section3info {
-  background: #E5E7EB; 
+  background: #E5E7EB;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -166,18 +170,18 @@ a {
 }
 
 .quote {
-  background: #E5E7EB; 
+  background: #E5E7EB;
   display: flex;
   font-size: 36px;
-  font-style: italic; 
+  font-style: italic;
   color: #1F2937;
   width: 850px;
   align-self: center;
 }
 
 .author {
-  background: #E5E7EB; 
-  display: flex; 
+  background: #E5E7EB;
+  display: flex;
   width: 150px;
   font-weight: bold;
   align-self: flex-end;
